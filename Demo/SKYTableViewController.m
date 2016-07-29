@@ -6,12 +6,12 @@
 //  Copyright (c) 2015年 sky luo. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import "SKYTableViewController.h"
 
-#import "SMWTableViewCell.h"
+#import "SKYTableViewCell.h"
 
 
-@implementation TableViewController
+@implementation SKYTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,10 +40,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *cellIdentifier = @"Cell";
-    SMWTableViewCell *cell = (SMWTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    static NSString *cellIdentifier = @"SKYTableViewCell";
+    SKYTableViewCell *cell = (SKYTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[SMWTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
+        cell = [[SKYTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     

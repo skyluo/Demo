@@ -1,5 +1,5 @@
 //
-//  TableViewController.h
+//  SKYTableViewController.h
 //  Demo
 //
 //  Created by sky luo on 15/8/31.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewController : UITableViewController
+@interface SKYTableViewController : UITableViewController
 
 @end

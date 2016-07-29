@@ -1,18 +1,18 @@
 //
-//  SMWTableViewCell.m
+//  SKYTableViewCell.m
 //  Demo
 //
-//  Created by smbl on 16/5/23.
+//  Created by sky on 16/5/23.
 //  Copyright © 2016年 sky luo. All rights reserved.
 //
 
-#import "SMWTableViewCell.h"
+#import "SKYTableViewCell.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 
 #define kAafterDelay 0.25
 
-@interface SMWTableViewCell() <UIScrollViewDelegate>{
+@interface SKYTableViewCell() <UIScrollViewDelegate>{
     
     UIButton *_deleteBtn;
     UIButton *_cancleBtn;
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation SMWTableViewCell
+@implementation SKYTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     
